@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Artificial Intelligence",
+    "description": "Learn the fundamentals of AI, including machine learning, neural networks, and natural language processing.",
+    "thumbnail": "🤖",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "What is AI?",
+        "content": [
+          "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+          "The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.",
+          "AI is continuously evolving to benefit many different industries.",
+          "Weak AI tends to be simple and single-task oriented, while strong AI carries on tasks that are more complex and human-like."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Machine Learning Basics",
+        "content": [
+          "Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
+          "It focuses on the development of computer programs that can access data and use it to learn for themselves.",
+          "The process of learning begins with observations or data, such as examples, direct experience, or instruction.",
+          "Machine learning algorithms are often categorized as supervised or unsupervised."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Neural Networks",
+        "content": [
+          "Neural networks are a series of algorithms that endeavor to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates.",
+          "In essence, a neural network is a set of connected input/output units where each connection has a weight associated with it.",
+          "During the learning phase, the network learns by adjusting weights so as to be able to predict the correct class label of the input signals.",
+          "Neural networks can be shallow or deep, with deep networks having multiple hidden layers."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Web Development Fundamentals",
+    "description": "Master HTML, CSS, and JavaScript to build responsive and interactive websites.",
+    "thumbnail": "💻",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "HTML Basics",
+        "content": [
+          "HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser.",
+          "It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.",
+          "Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.",
+          "HTML describes the structure of a web page semantically and originally included cues for the appearance of the document."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "CSS Styling",
+        "content": [
+          "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.",
+          "CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+          "CSS enables the separation of presentation and content, including layout, colors, and fonts.",
+          "This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Essentials",
+        "content": [
+          "JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.",
+          "It has dynamic typing, prototype-based object-orientation, and first-class functions.",
+          "Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.",
+          "JavaScript enables interactive web pages and is an essential part of web applications."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Data Science with Python",
+    "description": "Learn data analysis, visualization, and machine learning using Python and its popular libraries.",
+    "thumbnail": "📊",
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Python Basics for Data Science",
+        "content": [
+          "Python is an interpreted, high-level, general-purpose programming language.",
+          "Its design philosophy emphasizes code readability with its use of significant indentation.",
+          "Python is dynamically typed and garbage-collected.",
+          "It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Data Manipulation with Pandas",
+        "content": [
+          "pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool.",
+          "It is built on top of the Python programming language.",
+          "pandas offers data structures and operations for manipulating numerical tables and time series.",
+          "It is a high-level data manipulation tool developed by Wes McKinney."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Data Visualization with Matplotlib",
+        "content": [
+          "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+          "It produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.",
+          "Matplotlib can be used in Python scripts, the Python and IPython shell, web application servers, and graphical user interface toolkits.",
+          "It is a plotting library for the Python programming language and its numerical mathematics extension NumPy."
+        ]
+      }
+    ]
+  }
+]

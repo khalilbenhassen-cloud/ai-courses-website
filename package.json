@@ -1,0 +1,25 @@
+{
+  "name": "ai-courses-website",
+  "version": "1.0.0",
+  "description": "A full-stack course website with Node.js backend and vanilla JS frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalilbenhassen-cloud/Claude-projects.git"
+  },
+  "keywords": ["nodejs", "express", "frontend", "backend", "courses"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalilbenhassen-cloud/Claude-projects/issues"
+  },
+  "homepage": "https://github.com/khalilbenhassen-cloud/Claude-projects#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
