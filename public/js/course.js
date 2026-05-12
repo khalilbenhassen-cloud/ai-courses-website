@@ -1,5 +1,10 @@
 // Fetch and display course details on the course page
 document.addEventListener('DOMContentLoaded', async () => {
+    // Initialize Firebase auth
+    if (typeof initAuth === 'function') {
+        initAuth();
+    }
+
     // Extract course ID from URL
     const pathParts = window.location.pathname.split('/');
     const courseId = parseInt(pathParts[2]); // /course/:id
@@ -39,6 +44,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                 `).join('')}
             </ul>
         `;
+
+        // Track that the user visited this course
+        if (typeof trackUserVisit === 'function') {
+            trackUserVisit(courseId);
+        }
     } catch (error) {
         console.error('Error loading course:', error);
         document.getElementById('course-detail').innerHTML = '<p>Error loading course. Please try again later.</p>';

@@ -11,6 +11,14 @@
         <h1>AI Courses</h1>
         <nav>
             <a href="/">← Home</a>
+            <div id="user-info">
+                <span id="user-name"></span>
+                <img id="user-pic" src="" alt="User photo" class="user-pic">
+                <div id="auth-buttons">
+                    <a href="/login" class="btn-login">Login</a>
+                </div>
+                <div id="login-logout"></div>
+            </div>
         </nav>
     </header>
 
@@ -24,6 +32,18 @@
         <p>&copy; 2026 AI Courses Website</p>
     </footer>
 
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+    <!-- Firebase Config -->
+    <script src="/firebase-config.js"></script>
+
+    <!-- Auth Script -->
+    <script src="/js/auth.js"></script>
+
+    <!-- Course Script -->
     <script src="/js/course.js"></script>
 </body>
 </html>

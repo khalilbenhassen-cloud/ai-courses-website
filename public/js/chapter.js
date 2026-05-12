@@ -1,5 +1,10 @@
 // Fetch and display chapter content on the chapter page
 document.addEventListener('DOMContentLoaded', async () => {
+    // Initialize Firebase auth
+    if (typeof initAuth === 'function') {
+        initAuth();
+    }
+
     // Extract course ID and chapter ID from URL
     const pathParts = window.location.pathname.split('/');
     // URL format: /course/:id/chapter/:chapterId
@@ -37,6 +42,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <!-- Previous/Next chapter navigation could be added here -->
             </div>
         `;
+
+        // Track that the user visited this chapter
+        if (typeof trackUserVisit === 'function') {
+            trackUserVisit(courseId, chapterId);
+        }
+
+        // Check if this chapter has been visited before (for showing indicator)
+        // Note: Since we're tracking the visit on load, this will always show as visited on current visit
+        // But we could check previous visits if needed
     } catch (error) {
         console.error('Error loading chapter:', error);
         document.getElementById('chapter-content').innerHTML = '<p>Error loading chapter. Please try again later.</p>';
